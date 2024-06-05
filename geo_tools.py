@@ -25,19 +25,7 @@ espaciovit = Airspace(
     ],
 )
 
-
-especiolhr = Airspace(
-    7000,
-    [
-        (51.4639, -0.4097),
-        (51.48325, -0.40789),
-        (51.50994, -0.12294),
-        (51.4602, -0.1431),
-    ],
-)
-
 convex_polygons = (espaciovit,)
-
 
 # Verify that a given plane is in one of the previously defined airspace sectors
 def verify_plane(plane: dict) -> bool:
