@@ -2,7 +2,7 @@ from geo_tools import verify_plane, verify_callsign
 from aux_tools import download_file
 from datetime import datetime
 
-
+# TEST
 # removes extraneous characters from the hex code and makes it lowercase
 def clean_hex_codes(plane_list: list) -> list:
     clean_list = list()
